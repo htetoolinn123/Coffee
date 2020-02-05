@@ -1,0 +1,157 @@
+@font-face
+{
+	font-family: "BoldItalic";
+	src:url(fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
+}
+h1{
+	font-family: "BoldItalic";
+}
+.clear{
+	clear: both;
+}
+div#header i{
+	float: left;
+}
+#header_logo_text{
+	margin-left: 50px;  
+}
+
+*{
+	margin: 0;
+	padding:0;
+}
+div#navbar{
+	width: 100%;
+	background: #4E342E;
+	height: 50px;
+	margin-top:10px;
+}
+div#navbar ul{
+	padding-left: 400px;
+	padding-top: 13px;
+}
+div#navbar ul li{
+	list-style: none;
+	float: left;
+}
+div#navbar ul li a{
+	text-decoration: none;
+	color:#fff;
+	text-transform: uppercase;
+	padding: 9px 30px;
+}
+div#navbar ul li a:hover,a.active{
+	background-color: #BF4B7A;
+}
+@font-face 
+{
+  font-family:'Unicode';
+  src: url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/mon3.woff') format('woff'), url('https://cdn.rawgit.com/LeonarAung/MyanmarFont/6cf1262f/mon3.ttf') format('ttf');
+}
+div.quote{
+	font-family: "Unicode";
+	position: absolute;
+	top:170px;
+	left: 70%;
+	right: 10%;
+	font-size: 30px;
+	background-color: rgb(255,255,255,0.5);
+	padding: 10px;
+}
+div#slider img{
+	height: 400px;
+	object-fit: cover;
+	width: 100%;
+	margin: 0;
+}
+@font-face
+{
+	font-family: "BebasNeue";
+	src:url(fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+.font{
+	font-family: BebasNeue;
+	font-size: 60px;
+	text-align: center;
+	margin-top:40px;
+}
+.coimg{
+	float: left;
+	margin-left: 5px;
+}
+.contact{
+	margin-left: 100px;
+	margin-top: 60px;
+}
+.con{
+	margin-left: 400px;
+	margin-right: 100px;
+}
+.para{
+	line-height: 2;
+	text-align: justify;
+	letter-spacing: 0.1em;
+	font-family: arial;
+}
+div h3{
+	font-family: BebasNeue;
+	letter-spacing: 0.3em;
+}
+.menu{
+	font-family: BebasNeue;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 70px;
+}
+#menu1 p{
+	margin-top: 30px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	font-family: arial;
+}
+.menuimg{
+	margin: 50px 20px;
+}
+.colimg{
+	text-align: center;
+	float: left;
+	font-family: arial;
+	border: 1px solid gray;
+	margin-left: 12px;
+}
+.colimg button{
+	width: 300px;
+	background: #4E342E;
+	height: 50px;
+	border: none;
+	font-family: arial;
+	color: white;
+	letter-spacing: 0.1em;
+	font-size: 15px;
+	font-weight: bold;
+}
+.colimg p{
+	color: red;
+	font-weight: bold;
+}
+.colimg h4{
+	font-weight: bold;
+	font-size: 20px;
+}
+div#footer{
+	margin-top: 80px;
+	background:#4E342E;
+	width: 100%;
+	height: 50px;
+	color: white;
+	font-family: arial;
+	line-height: 50px;
+}
+div#footer .firstf{
+	float: left;
+	margin-left: 20px;
+}
+div#footer .secf{
+	float: right;
+	margin-right:20px;
+}
